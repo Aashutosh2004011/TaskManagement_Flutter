@@ -111,7 +111,7 @@ lib/
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone git@github.com:Aashutosh2004011/TaskManagement_Flutter.git
    cd Flutter_TaskManagement
    ```
 
@@ -124,12 +124,12 @@ lib/
 
    Create a `.env` file in the project root:
    ```env
-   API_BASE_URL=http://localhost:3000/api
+   API_BASE_URL=https://taskmanagement-backend-v7w8.onrender.com/api
    ```
 
-   For testing with physical device, use your computer's IP:
+   For local development with backend running locally:
    ```env
-   API_BASE_URL=http://192.168.1.x:3000/api
+   API_BASE_URL=http://localhost:3000/api
    ```
 
 4. **Run code generation**
@@ -239,10 +239,10 @@ Response:
    ```
 
 2. **Cannot connect to backend**
-   - Ensure backend is running
-   - Check `.env` file has correct API URL
-   - For physical devices, use computer's IP address
-   - Check firewall settings
+   - Check `.env` file has correct API URL (should be `https://taskmanagement-backend-v7w8.onrender.com/api`)
+   - Ensure you have internet connectivity
+   - Check firewall settings if using local backend
+   - For local development, ensure backend is running on localhost:3000
 
 3. **Code generation errors**
    ```bash
