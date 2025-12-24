@@ -2,6 +2,26 @@
 
 A modern, intelligent task management mobile application built with Flutter that automatically classifies and organizes tasks based on content analysis.
 
+## Screenshots
+
+### Dashboard Overview
+<img src="screenshots/dashboard_overview.png" width="300" alt="Dashboard Overview">
+
+### Create New Task
+<img src="screenshots/create_task.png" width="300" alt="Create Task">
+
+### Task List with Success Message
+<img src="screenshots/task_list.png" width="300" alt="Task List">
+
+### Search Functionality
+<img src="screenshots/search_feature.png" width="300" alt="Search Feature">
+
+### Filter by Category
+<img src="screenshots/filter_by_category.png" width="300" alt="Filter by Category">
+
+### Task Details
+<img src="screenshots/task_details.png" width="300" alt="Task Details">
+
 ## Features
 
 ### Core Functionality
@@ -152,8 +172,10 @@ API_BASE_URL=http://localhost:3000/api
 
 **Production:**
 ```env
-API_BASE_URL=https://your-backend-url.com/api
+API_BASE_URL=https://taskmanagement-backend-v7w8.onrender.com/api
 ```
+
+**Live Backend URL:** https://taskmanagement-backend-v7w8.onrender.com
 
 ### Color Scheme Customization
 
